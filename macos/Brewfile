@@ -1,0 +1,40 @@
+cask_args appdir: "/Applications"
+
+# Tap Homebrew
+tap "homebrew/bundle"
+tap "homebrew/services"
+
+# System
+brew "mas"
+brew "duti"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
+brew "curl"
+brew "wget"
+
+# Apps
+cask "1password"
+cask "1password-cli"
+cask "visual-studio-code"
+cask "firefox"
+cask "google-chrome"
+cask "vlc"
+cask "telegram"
+cask "signal"
+cask "iterm2"
+cask "plex"
+
+# Git
+brew "git"
+brew "git-lfs"
+
+## IAC 
+brew "ansible"
+brew "terraform"
+
+# Archive
+brew "xz"
+brew "p7zip"
+
+# MAS
+mas 'XCode', id: 497799835

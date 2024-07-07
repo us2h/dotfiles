@@ -1,0 +1,6 @@
+# Brewfile state
+Brewfile.lock.json
+
+# MacOS
+.DS_Store
+
