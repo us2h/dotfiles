@@ -23,6 +23,8 @@ cask "telegram"
 cask "signal"
 cask "iterm2"
 cask "plex"
+cask "slack"
+cask "mullvadvpn"
 
 # Git
 brew "git"
