@@ -11,11 +11,22 @@ sudo -v
 # Stay root
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-####################################
-# System
+
+### System ###
 
 # Set the startup sound volume to zero
 sudo nvram StartupMute=%01
+
+
+### Battery ###
+# Prevent automatic sleeping on power adapter when the display is off
+sudo pmset -c displaysleep 0
+sudo pmset -c sleep 0
+sudo pmset -c disablesleep 1
+
+# Never wake for network access
+sudo pmset -a womp 0
+
 
 ### Dock settings ###
 # Automatically hide and show the Dock:

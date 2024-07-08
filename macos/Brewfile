@@ -7,6 +7,7 @@ tap "homebrew/services"
 # System
 brew "mas"
 brew "duti"
+brew "mc"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 brew "curl"
@@ -25,6 +26,7 @@ cask "iterm2"
 cask "plex"
 cask "slack"
 cask "mullvadvpn"
+cask "tailscale"
 
 # Git
 brew "git"
