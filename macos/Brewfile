@@ -12,6 +12,12 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 brew "curl"
 brew "wget"
+brew "k6"
+brew "screen"
+
+# Dev
+brew "pyenv"
+brew "pyenv-virtualenv"
 
 # Apps
 cask "1password"
@@ -27,6 +33,16 @@ cask "plex"
 cask "slack"
 cask "mullvadvpn"
 cask "tailscale"
+cask "anydesk"
+cask "dropshare"
+cask "forklift"
+cask "docker"
+cask "parallels"
+cask "transmission"
+cask "4k-video-downloaderplus"
+cask "discord"
+cask "postman"
+cask "balenaetcher"
 
 # Git
 brew "git"
