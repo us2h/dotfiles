@@ -41,13 +41,16 @@ stow kde6
 stow konsole
 ```
 
-If `~/.config/` already contains files (conflict):
+If `~/.config/` already contains files (conflict), use `--adopt` followed by `git checkout`.  
+**Warning:** `--adopt` moves existing files from `~/.config/` into the repository, overwriting your dotfiles with the machine's defaults. `git checkout .` restores your versions afterwards.
 
 ```bash
 stow --adopt kde6
-git diff        # review what changed
-git add . && git commit -m "adopt existing configs"
+git diff        # review what was overwritten by default configs
+git checkout .  # restore your versions from the repository
 ```
+
+After `git checkout .`, your configs are back in the repository and symlinked into `~/.config/`.
 
 ## Saving changes made through the UI
 
