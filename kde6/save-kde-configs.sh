@@ -12,7 +12,6 @@ KDE_FILES=(
   kdeglobals
   kwinrc
   plasmashellrc
-  plasma-org.kde.plasma.desktop-appletsrc
   kglobalshortcutsrc
   khotkeysrc
   kcminputrc
