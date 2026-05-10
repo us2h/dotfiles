@@ -17,6 +17,8 @@ KDE_FILES=(
   khotkeysrc
   kcminputrc
   kxkbrc
+  powerdevilrc
+  powermanagementprofilesrc
 )
 
 for f in "${KDE_FILES[@]}"; do
