@@ -4,10 +4,10 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
+[Containments][19]
 ItemGeometries-2259x1271=
 ItemGeometriesHorizontal=
-activityId=a1e06a4e-3992-42ea-9fe8-4d0a4cc26575
+activityId=a29f1e7c-325e-4244-bd83-2b1c567ee9e9
 formfactor=0
 immutability=1
 lastScreen=0
@@ -15,9 +15,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][1][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+[Containments][19][Wallpaper][org.kde.image][General]
+Image=file:///home/us2h/.local/share/wallpapers/Gently-Nebula-Noir-Plasma-Logo.jpeg
+SlidePaths=/home/us2h/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][2]
 activityId=
@@ -70,7 +70,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:org.kde.konsole.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:org.kde.konsole.desktop,applications:code.desktop,applications:kitty.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -147,4 +147,4 @@ AppletOrder=3;4;5;6;7;17;18
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/firefox.desktop,0,a29f1e7c-325e-4244-bd83-2b1c567ee9e9
